@@ -1,20 +1,22 @@
 <?php
 
     if($_POST){
-        $numero = $_POST["numero_txt"];
-        $primo = true;
-        for($i = 1; $i<=$numero; $i++){
-            if($numero%$i!=0){
-                $primo = false;
+        $numero = (int)$_POST["numero_txt"];
+        $esPrimo = true;
+        
+        for($i = 2; $i< $numero; $i++){
+            if($numero%$i ==0){
+                $esPrimo = false;    
                 break;
             }
         }
 
-        if($primo){
-            echo"El numero ". $numero . " es primo";
+        if($esPrimo == true){
+            echo"El número " . $numero . " es primo";
         }else{
-            echo"El número ". $numero . " no es primo";
+            echo "El número " . $numero . " no es Primo";
         }
+
     }
 
 ?>
