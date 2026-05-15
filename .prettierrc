@@ -1,0 +1,10 @@
+{
+    "plugins": ["@prettier/plugin-php"],
+    "phpVersion": "8.2",
+    "tabWidth": 4,
+    "useTabs": false,
+    "printWidth": 80,
+    "singleQuote": false,
+    "trailingCommaPHP": true,
+    "braceStyle": "1tbs"
+}
