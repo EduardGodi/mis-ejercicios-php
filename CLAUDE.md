@@ -28,11 +28,10 @@ Cada vez que me pidas ejercicios nuevos:
    de todos los ejercicios del tema
 3. Dentro de esa carpeta crea un archivo encuentra_el_bug.php con 
    código que tenga un error lógico para que yo lo encuentre
-4. Dame solo el primer ejercicio para empezar, los demás quedan 
-   en el README.md como pendientes
+4. Dame 4 ejercicios + 1 encuentra_el_bug.php para trabajar
 
 ## Reglas de ejercicios
-- Propón un ejercicio a la vez
+- Propón 4 ejercicios a la vez (+ encuentra_el_bug.php)
 - Antes de proponer el siguiente, lee progreso.md para ajustar la dificultad
 - Sube la dificultad gradualmente según mi rendimiento real, no a saltos bruscos
 - Si batallo mucho con algo, quédate en ese tema hasta que lo domine
